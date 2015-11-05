@@ -1,0 +1,92 @@
+{% extends 'base.html'%}
+
+{% block title%}
+{{game_name}}-参数设置
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/media/css/select2_metro.css"/>
+<link rel="stylesheet" type="text/css" href="/media/css/chosen.css"/>
+<link rel="stylesheet" type="text/css" href="/media/css/addtional.css"/>
+{% endblock %}
+
+
+{% block content %}
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+        <h3 class="page-title">
+            {{game_name}}
+            <small>参数设置</small>
+        </h3>
+        <!-- END PAGE TITLE & BREADCRUMB-->
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN VALIDATION STATES-->
+        <div class="portlet box">
+
+            <div class="portlet-title">
+                <div class="caption"><i class="icon-reorder">设定</i></div>
+                <div class="tools">
+                    <a href="javascript:;" class="collapse"></a>
+                    <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                    <a href="javascript:;" class="reload"></a>
+                    <a href="javascript:;" class="remove"></a>
+                </div>
+            </div>
+
+
+            <div class="portlet-body form">
+                <!-- BEGIN FORM-->
+                <form action="/game/saveArguments" id="form_sample_2" class="form-horizontal" method="post">
+                    <div class="alert alert-error hide">
+                        <button class="close" data-dismiss="alert"></button>
+                        您提交的信息有错误请更正后再保存
+                    </div>
+
+                    <div class="alert alert-success hide">
+                        <button class="close" data-dismiss="alert"></button>
+                        保存成功!
+                    </div>
+
+                    {% for setting in settings %}
+                    <div class="control-group">
+                        <label class="control-label" style="width:280px;text-align: left"><b class="midnight">{{setting[1]}} </b><span
+                                class="required">*</span></label>
+
+                        <div class="controls chzn-controls">
+                            <input type="text" name="{{setting[0]}}" data-required="1" class="span3 m-wrap"
+                                   value="{{setting[4]|default(setting[2])}}"/>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn red">保存</button>
+                        <button type="reset" class="btn">重置</button>
+                    </div>
+                </form>
+                <!-- END FORM-->
+            </div>
+        </div>
+        <!-- END VALIDATION STATES-->
+    </div>
+</div>
+
+{% endblock %}
+
+{% block javascript_plugins%}
+<script type="text/javascript" src="/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/media/js/additional-methods.min.js"></script>
+<script type="text/javascript" src="/media/js/select2.min.js"></script>
+<script type="text/javascript" src="/media/js/chosen.jquery.min.js"></script>
+{% endblock  %}
+
+{% block javascript_custom %}
+{% endblock %}
+

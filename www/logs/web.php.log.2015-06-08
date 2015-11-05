@@ -1,0 +1,36 @@
+[08-Jun-2015 14:41:04 Asia/Shanghai] 未知的错误类型: [4096] Argument 3 passed to common\ResourceManager::addResource() must be of the type array, string given, called in /Users/shameless/php_workspace/website_php/www/exchangefactory/baseExchange.class.php on line 90 and defined 
+
+[08-Jun-2015 14:41:04 Asia/Shanghai] 未知的错误类型: [4096] Argument 4 passed to common\ResourceManager::addResource() must be of the type array, string given, called in /Users/shameless/php_workspace/website_php/www/exchangefactory/baseExchange.class.php on line 90 and defined 
+
+[08-Jun-2015 14:41:05 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[08-Jun-2015 14:41:06 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[08-Jun-2015 14:43:41 Asia/Shanghai] 未知的错误类型: [4096] Argument 3 passed to common\ResourceManager::addResource() must be of the type array, string given, called in /Users/shameless/php_workspace/website_php/www/exchangefactory/baseExchange.class.php on line 90 and defined 
+
+[08-Jun-2015 14:43:41 Asia/Shanghai] 未知的错误类型: [4096] Argument 4 passed to common\ResourceManager::addResource() must be of the type array, string given, called in /Users/shameless/php_workspace/website_php/www/exchangefactory/baseExchange.class.php on line 90 and defined 
+
+[08-Jun-2015 14:43:42 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[08-Jun-2015 14:43:43 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[08-Jun-2015 14:44:38 Asia/Shanghai] 未知的错误类型: [4096] Argument 3 passed to common\ResourceManager::addResource() must be of the type array, string given, called in /Users/shameless/php_workspace/website_php/www/exchangefactory/baseExchange.class.php on line 90 and defined 
+
+[08-Jun-2015 14:44:38 Asia/Shanghai] 未知的错误类型: [4096] Argument 4 passed to common\ResourceManager::addResource() must be of the type array, string given, called in /Users/shameless/php_workspace/website_php/www/exchangefactory/baseExchange.class.php on line 90 and defined 
+
+[08-Jun-2015 14:44:38 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[08-Jun-2015 14:44:39 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+

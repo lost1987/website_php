@@ -1,0 +1,65 @@
+[08-Sep-2015 18:18:11 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unable to find template "excode_select.html" (looked into: /Users/shameless/php_workspace/website_php/www/web/template).' in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php(138): findTemplate(string)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(265): getCacheKey(string)
+#2 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(323): getTemplateClass(string, NULL)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): loadTemplate(string)
+#4 /Users/shameless/php_workspace/website_php/www/web/controller/ex.class.php(154): display(string, array)
+#5 (): select()
+#6 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#7 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#8 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#9 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php on line 191
+[08-Sep-2015 18:18:16 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unable to find template "excode.html" (looked into: /Users/shameless/php_workspace/website_php/www/web/template).' in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php(138): findTemplate(string)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(265): getCacheKey(string)
+#2 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(323): getTemplateClass(string, NULL)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): loadTemplate(string)
+#4 /Users/shameless/php_workspace/website_php/www/web/controller/ex.class.php(27): display(string, array)
+#5 (): index()
+#6 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#7 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#8 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#9 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php on line 191
+[08-Sep-2015 18:18:24 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unable to find template "excode_select.html" (looked into: /Users/shameless/php_workspace/website_php/www/web/template).' in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php(138): findTemplate(string)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(265): getCacheKey(string)
+#2 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(323): getTemplateClass(string, NULL)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): loadTemplate(string)
+#4 /Users/shameless/php_workspace/website_php/www/web/controller/ex.class.php(154): display(string, array)
+#5 (): select()
+#6 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#7 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#8 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#9 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php on line 191
+[08-Sep-2015 18:20:15 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unable to find template "excode_select.html" (looked into: /Users/shameless/php_workspace/website_php/www/web/template).' in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php(138): findTemplate(string)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(265): getCacheKey(string)
+#2 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(323): getTemplateClass(string, NULL)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): loadTemplate(string)
+#4 /Users/shameless/php_workspace/website_php/www/web/controller/ex.class.php(154): display(string, array)
+#5 (): select()
+#6 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#7 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#8 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#9 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php on line 191
+[08-Sep-2015 18:24:02 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unable to find template "excode.html" (looked into: /Users/shameless/php_workspace/website_php/www/web/template).' in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php(138): findTemplate(string)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(265): getCacheKey(string)
+#2 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(323): getTemplateClass(string, NULL)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): loadTemplate(string)
+#4 /Users/shameless/php_workspace/website_php/www/web/controller/ex.class.php(27): display(string, array)
+#5 (): index()
+#6 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#7 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#8 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#9 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/libs/Twig/Loader/Filesystem.php on line 191

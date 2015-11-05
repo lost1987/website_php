@@ -1,0 +1,20 @@
+[14-Sep-2015 11:17:26 Asia/Shanghai] 未知的错误类型: [4096] Argument 2 passed to Twig_Environment::display() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/dhmanager/core/dhController.class.php on line 41 and defined 
+
+[14-Sep-2015 11:17:26 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to Twig_Template::display() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Environment.php on line 307 and defined 
+
+[14-Sep-2015 11:17:26 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to Twig_Environment::mergeGlobals() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Template.php on line 253 and defined 
+
+[14-Sep-2015 11:17:26 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to Twig_Template::displayWithErrorHandling() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Template.php on line 253 and defined 
+
+[14-Sep-2015 11:17:26 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to __TwigTemplate_3e256fa0196e2dd75e4948604b9b9e10a56a5a8743bcad95679333bf15fd5dc7::doDisplay() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Template.php on line 279 and defined 
+
+[14-Sep-2015 11:17:39 Asia/Shanghai] 未知的错误类型: [4096] Argument 2 passed to Twig_Environment::display() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/dhmanager/core/dhController.class.php on line 41 and defined 
+
+[14-Sep-2015 11:17:39 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to Twig_Template::display() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Environment.php on line 307 and defined 
+
+[14-Sep-2015 11:17:39 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to Twig_Environment::mergeGlobals() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Template.php on line 253 and defined 
+
+[14-Sep-2015 11:17:39 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to Twig_Template::displayWithErrorHandling() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Template.php on line 253 and defined 
+
+[14-Sep-2015 11:17:39 Asia/Shanghai] 未知的错误类型: [4096] Argument 1 passed to __TwigTemplate_3e256fa0196e2dd75e4948604b9b9e10a56a5a8743bcad95679333bf15fd5dc7::doDisplay() must be of the type array, null given, called in /Users/shameless/php_workspace/website_php/exchange/libs/Twig/Template.php on line 279 and defined 
+

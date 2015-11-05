@@ -1,0 +1,30 @@
+[14-Sep-2015 09:59:31 Asia/Shanghai]  PHP WARNING : warning  with message 'implode(): Invalid arguments passed' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/gms/controller/systemMessage.class.php(78): implode(string, string)
+#2 (): save()
+#3 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#4 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#6 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[14-Sep-2015 09:59:49 Asia/Shanghai]  PHP WARNING : warning  with message 'implode(): Invalid arguments passed' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/gms/controller/systemMessage.class.php(78): implode(string, string)
+#2 (): save()
+#3 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#4 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#6 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[14-Sep-2015 10:00:37 Asia/Shanghai]  PHP WARNING : warning  with message 'implode(): Invalid arguments passed' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/gms/controller/systemMessage.class.php(78): implode(string, string)
+#2 (): save()
+#3 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#4 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#6 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109

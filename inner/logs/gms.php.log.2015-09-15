@@ -1,0 +1,234 @@
+[15-Sep-2015 09:28:40 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unexpected ")" in "game_server.html" at line 390' in /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php:259
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php(216): lexExpression()
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php(115): lexVar()
+#2 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(469): tokenize(string, string)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(559): tokenize(string, string)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(334): compileSource(string, string)
+#5 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): loadTemplate(string)
+#6 /Users/shameless/php_workspace/website_php/inner/gms/core/adminController.class.php(151): display(string, array)
+#7 /Users/shameless/php_workspace/website_php/inner/gms/controller/system.class.php(556): render(string)
+#8 (): server()
+#9 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#10 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#11 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#12 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php on line 259
+[15-Sep-2015 09:28:42 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unexpected ")" in "game_server.html" at line 390' in /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php:259
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php(216): lexExpression()
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php(115): lexVar()
+#2 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(469): tokenize(string, string)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(559): tokenize(string, string)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(334): compileSource(string, string)
+#5 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): loadTemplate(string)
+#6 /Users/shameless/php_workspace/website_php/inner/gms/core/adminController.class.php(151): display(string, array)
+#7 /Users/shameless/php_workspace/website_php/inner/gms/controller/system.class.php(556): render(string)
+#8 (): server()
+#9 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#10 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#11 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#12 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/libs/Twig/Lexer.php on line 259
+[15-Sep-2015 09:51:45 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Encode:数据解包失败' in /Users/shameless/php_workspace/website_php/inner/core/encoder.class.php:74
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(828): decode(boolean)
+#1 (): diamondTable()
+#2 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#3 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#4 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#5 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/encoder.class.php on line 74
+[15-Sep-2015 09:52:01 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Encode:数据解包失败' in /Users/shameless/php_workspace/website_php/inner/core/encoder.class.php:74
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(828): decode(boolean)
+#1 (): diamondTable()
+#2 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#3 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#4 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#5 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/encoder.class.php on line 74
+[15-Sep-2015 11:51:22 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unexpected token "end of print statement" of value "" in "game_server.html" at line 334' in /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php:175
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php(84): parsePrimaryExpression()
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php(41): getPrimary()
+#2 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Parser.php(141): parseExpression()
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/TokenParser/Block.php(45): subparse(array, boolean)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Parser.php(187): parse(object)
+#5 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Parser.php(95): subparse(NULL, boolean)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(507): parse(object)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(559): parse(object)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(334): compileSource(string, string)
+#9 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): loadTemplate(string)
+#10 /Users/shameless/php_workspace/website_php/inner/gms/core/adminController.class.php(151): display(string, array)
+#11 /Users/shameless/php_workspace/website_php/inner/gms/controller/system.class.php(392): render(string)
+#12 (): server()
+#13 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#14 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#15 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#16 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php on line 175
+[15-Sep-2015 11:51:24 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'Unexpected token "end of print statement" of value "" in "game_server.html" at line 334' in /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php:175
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php(84): parsePrimaryExpression()
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php(41): getPrimary()
+#2 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Parser.php(141): parseExpression()
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/TokenParser/Block.php(45): subparse(array, boolean)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Parser.php(187): parse(object)
+#5 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Parser.php(95): subparse(NULL, boolean)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(507): parse(object)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(559): parse(object)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(334): compileSource(string, string)
+#9 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): loadTemplate(string)
+#10 /Users/shameless/php_workspace/website_php/inner/gms/core/adminController.class.php(151): display(string, array)
+#11 /Users/shameless/php_workspace/website_php/inner/gms/controller/system.class.php(392): render(string)
+#12 (): server()
+#13 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#14 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#15 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#16 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/libs/Twig/ExpressionParser.php on line 175
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109
+[15-Sep-2015 15:34:00 Asia/Shanghai]  PHP WARNING : warning  with message 'Division by zero' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(193): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(144): block_content(array, array)
+#2 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/f0/c1403e54118d8485615d6fb053eef4b079de1225c471937d334187bdb79e.php(425): displayBlock(string, array, array)
+#3 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#4 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#5 /Users/shameless/php_workspace/website_php/inner/gms/template_c/e2/19/bda0697af1c2c941216dabb0fb2edc4d3527090353bf652fed95098d0da4.php(28): display(array, array)
+#6 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(279): doDisplay(array, array)
+#7 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#8 /Users/shameless/php_workspace/website_php/inner/libs/Twig/Environment.php(307): display(array)
+#9 /Users/shameless/php_workspace/website_php/inner/gms/controller/datas.class.php(708): display(string, array)
+#10 (): userRegress()
+#11 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#12 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#13 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#14 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109

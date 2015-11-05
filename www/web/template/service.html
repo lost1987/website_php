@@ -1,0 +1,92 @@
+{% extends 'baseService.html' %}
+
+{% block title %}
+武汉麻将-客户服务
+{% endblock %}
+
+{% block keywords %}
+武汉麻将-客户服务
+{% endblock %}
+
+{% block description %}
+武汉麻将-客户服务
+{% endblock %}
+
+{% block content %}
+    <div class="col-xs-7">
+      <div class="panel p15 inner pb50">
+        <h4 class="mTitle">服务指南</h4>
+        <div class="">
+          <div class="row">
+            <div class="col-xs-4 text-center">
+              <span class="block">
+                <span class="icon iconL-phone"></span>
+              </span>
+              <h4>客服热线</h4>
+              <p class="text-blue">027-59817413</p>
+            </div>
+            <div class="col-xs-4 text-center">
+              <a href="http://shang.qq.com/wpa/qunwpa?idkey=cccb0ff5e146f7ad2f26d700d1b1fa3a24bc82bdb115c6833bcb47bba52de14f" target="_blank">
+              <span class="block">
+                <span class="icon iconL-qq"></span>
+              </span>
+              <h4>玩家群</h4>
+              <p class="text-blue">129166897</p>
+              </a>
+            </div>
+            <div class="col-xs-4 text-center">
+              <span class="block">
+                <img src="images/code.png" alt="" class="img-responsive">
+              </span>
+              <h4>微信</h4>
+              <p class="text-blue">Wuhan-mahjong</p>
+            </div>
+          </div>
+        </div>
+        <h4 class="mTitle">自助服务</h4>
+        <div class="">
+          <div class="row mb50">
+            <div class="col-xs-3 text-center">
+              <a href="/service/sus" class="block b-sm">
+                <span class="icon iconL-man"></span>
+              </a>
+              <h4>账号申诉</h4>
+            </div>
+            <div class="col-xs-3 text-center">
+              {% if is_login == 0%}
+                    <a href="#tops"  class="block b-sm pt5" onclick="$('#loginPannel').trigger('mouseover')">
+               {% else %}
+                    <a href="/userAuth/mobile" class="block b-sm">
+              {% endif %}
+                <span class="icon iconL-cellphone"></span>
+              </a>
+              <h4>手机认证</h4>
+            </div>
+            <div class="col-xs-3 text-center">
+                {% if is_login == 0%}
+                    <a href="#tops"  class="block b-sm pt5" onclick="$('#loginPannel').trigger('mouseover')">
+                {% else %}
+                    <a href="/userAuth/email" class="block b-sm pt5">
+                {% endif %}
+                <span class="icon iconL-email"></span>
+              </a>
+              <h4>邮箱认证</h4>
+            </div>
+            <div class="col-xs-3 text-center">
+                {% if is_login == 0%}
+                    <a href="#tops"  class="block b-sm pt5" onclick="$('#loginPannel').trigger('mouseover')">
+                {% else %}
+                    <a href="/userAuth/idCard" class="block b-sm pt5">
+                {% endif %}
+                <span class="icon iconL-chat"></span>
+              </a>
+              <h4>防沉迷认证</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}

@@ -1,0 +1,93 @@
+{% block css %}
+<link rel="stylesheet" href="{{constant('STATIC_HOST')}}/assets/css/select2.min.css">
+{% endblock %}
+
+<div class="am-cf am-padding">
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">奖励申请</strong> / <small>专员一级下线</small></div>
+</div>
+
+<div class="am-g">
+<div class="am-u-sm-12">
+<table class="am-table am-table-striped am-table-hover table-main">
+<thead>
+<tr>
+    <th class="table-check"><input type="checkbox" /></th>
+    <th>UID</th>
+    <th>上线账号</th>
+    <th>账号</th>
+    <th>昵称</th>
+    <th>下线人数</th>
+    <th>当前提成比例</th>
+    <th>可提升提成比例</th>
+    <th>申请时间</th>
+    <th>处理时间</th>
+    <th>状态</th>
+    <th>操作</th>
+</tr>
+</thead>
+<tbody>
+{% for item in list %}
+<tr>
+    <td><input type="checkbox" /></td>
+    <td>{{item.uid}}</td>
+    <td><a href="javascript:;">{{item.parent}}</a></td>
+    <td><a href="javascript:;">{{item.login_name}}</a></td>
+    <td>{{item.nickname}}</td>
+    <td>{{item.childNum}}</td>
+    <td rel="ajax_curRatio">{{item.curStageRatio}}</td>
+    <td>{{item.reachableStageRatio}}</td>
+    <td>{{item.apply_time}}</td>
+    <td rel="ajax_handle_time">{{item.handle_time}}</td>
+    <td rel="ajax_state">{{item.stateName}}</td>
+    <td>
+        <div class="am-btn-toolbar" style="width:225px;">
+            <div class="am-btn-group am-btn-group-xs">
+                <button class="am-btn am-btn-default am-btn-xs am-text-secondary" {% if item.state!=0%}disabled="true"{% endif %} onclick="agree({{item.id}},{{item.uid}},'{{item.login_name}}',this)"><span class="am-icon-check"></span> 批准</button>
+                <button class="am-btn am-btn-default am-btn-xs am-text-danger" {% if item.state!=0%}disabled="true"{% endif %}  onclick="disagree({{item.id}},'{{item.login_name}}',this)"><span class="am-icon-ban"></span> 驳回</button>
+                <button class="am-btn am-btn-default am-btn-xs am-text-secondary" {% if item.comment == ''%}disabled="true"{% endif %} onclick="commentDetail(this)"><span class="am-icon-pencil-square-o"></span> 驳回原因</button>
+                <input type="hidden" value="{{item.comment}}" />
+            </div>
+        </div>
+    </td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+<div class="am-cf">
+    共 {{total}} 条记录
+    <div class="am-fr">
+        <ul class="am-pagination">
+            {{pagiation|raw}}
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="am-modal" tabindex="-1" id="ComissionerApplyModal">
+    <div class="am-modal-dialog">
+        <div class="am-modal-hd">驳回[ <span id="SettlementUser" style="color:mediumvioletred"></span> ]的奖励申请
+            <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+        </div>
+        <div class="am-modal-bd">
+           <form class="am-form-horizontal am-margin-top-lg am-text-left am-margin-left-sm">
+               <div class="am-form-control">
+               <label class="am-form-label am-margin-right-sm span4" style="font-size: 12px;vertical-align: middle;margin-bottom:15px;">驳回原因</label>
+                   <textarea id="comment" style="width:300px;height:70px;"></textarea>
+               </div>
+               <input type="submit" id="ComissionerApplySubmitBtn" class="submit" style="display:none"/>
+           </form>
+        </div>
+        <div class="am-modal-footer">
+            <span class="am-modal-btn" id="ComissionerApplyModal-btn-no">取消</span>
+            <span class="am-modal-btn" id="ComissionerApplyModal-btn-yes">确认</span>
+        </div>
+    </div>
+</div>
+
+{% block script %}
+<script src="{{constant('STATIC_HOST')}}/assets/lib/jquery.validate.min.js"></script>
+<script src="{{constant('STATIC_HOST')}}/assets/lib/select2.min.js"></script>
+<script src="{{constant('STATIC_HOST')}}/assets/standalone/comissionerApplyChild_list.js"></script>
+<script src="{{constant('STATIC_HOST')}}/assets/lib/common-list.js"></script>
+{% endblock %}

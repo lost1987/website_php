@@ -1,0 +1,264 @@
+{% extends 'baseMain.html' %}
+
+{% block title %}
+武汉麻将
+{% endblock %}
+
+{% block keywords %}
+武汉麻将
+{% endblock %}
+
+{% block description %}
+武汉麻将
+{% endblock %}
+
+{% block banner %}
+<div class="banner01" {% if is_login %}style="background:url('../images/banner04.png') center no-repeat #0D1955"{% endif %}>
+    <div class="container">
+        <div class="loginPanel" {% if is_login %}style="left:700px;"{% endif %}>
+            {% if is_login != 1%}
+            <div class="panel-heading">
+                <center>一个账号，双平台通用</center>
+            </div>
+            {% else %}
+            <div class="panel-heading" style="padding:0px 0px;height:53px;background: rgba(0,0,0,.5) !important">
+                <div  style="border:solid black 1px;border-bottom-color:rgb(163,217,0);width: 160px;height:53px; !important;text-align: center;float:left;line-height:53px;">武汉麻将</div>
+                <div style="width: 160px;height:53px; !important;text-align: center;float:left;line-height:53px;background: rgba(0,0,0,.5)" ><a href="{{constant('PLATFORM_HOST')}}" >游戏平台</a></div>
+            </div>
+            {% endif %}
+            <div class="panel-body">
+                {% if is_login != 1 %}
+                <form role="form" id="loginForm" class="p35 in" method="post" action="/user/login">
+                    <fieldset>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="icon icon-userW"></span></span>
+                                <input type="text" class="form-control" id="login_name" name="login_name" placeholder="用户名/邮箱/手机号">
+                                <input type="hidden" value="{{csrf_token}}" name="csrf_token" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="icon icon-lockW"></span></span>
+                                <input type="password" class="form-control" name="source_password" id="source_password">
+                                <input type="hidden" class="form-control" name="password" id="password">
+                                <input type="hidden" id="login_type" name="login_type" />
+                            </div>
+                        </div>
+                        <p class="text-right font12">
+                            <span style="float:left;color:RGB(255,183,60)" id="errorAlert">用户名或密码错误</span>
+                            <a href="/user/password/1">忘记密码？</a>
+                        </p>
+                        <button type="button" onclick="login()" class="btn btn-warning btn-block mb10" >登陆</button>
+                        <div>更多登陆方式<a href="/weibo/sina/login"> <span class="icon icon-sina"></span></a><a href="/user/signup" class="pull-right text-org">立即注册</a></div>
+                    </fieldset>
+                </form>
+                {% else %}
+                <form>
+                    <div class="form-group" style="display:none">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="icon icon-lockW"></span></span>
+                            <input type="password" class="form-control" name="" id="">
+                        </div>
+                    </div>
+                </form>
+                <div id="afterLogin" class="afterLogin">
+                    <div class="p35 clearfix">
+                        <span class="info"><span class="uName">{{nickname}}</span> 您好！<a href="/user/logout" class="text-blue" id="exitBtn">退出</a></span><a href="/game/enter" class="btn btn-sm btn-success pull-right">进入游戏</a>
+                    </div>
+                    <div class="p35 bg-black">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <p>金币：{{coins}}</p>
+                                <p>胜率：{{ratio}}</p>
+                            </div>
+                            <div class="col-xs-6">
+                                <p>钻石：{{diamond}}</p>
+                                <p>等级：<span class="text-blue" >{{vip_level}}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p10 mt5">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li><a href="/userinfo"><span class="icon icon-user-org"></span>账号中心</a></li>
+                            <li><a href="/payment/prepare/0"><span class="icon icon-charge-org"></span>立即充值</a></li>
+                            <li><a href="/service"><span class="icon icon-chat-org"></span>客服中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block content %}
+<div class="col-xs-8">
+    {% include 'article_tablist.html' %}
+    <div class="mt10">
+        <div class="panel nobd inner">
+            <div id="demo1" class="picBtnTop">
+                <div class="hd">
+                    <ul class="list-unstyled">
+                        {% for item in activity %}
+                        {% if loop.index0 == 0%}
+                        <li class="on"><a href="/activity/detail/{{item.id}}">{{item.name}}</a></li>
+                        {% else %}
+                        <li><a href="/activity/detail/{{item.id}}">{{item.name}}</a></li>
+                        {% endif %}
+
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul class="list-unstyled" id="centerActivityPicList">
+                        <input type="hidden" id="activityImages" value="{{activityImages}}" />
+                        {% for item in activity %}
+                        <li style="width:450px;height:199px;">
+                            <div class="pic"><a href="/activity/detail/{{item.id}}"></a></div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="p15">
+                <div class="row" id="newsImageDiv">
+                    <input type="hidden" id="newsImages" value="{{newsImages}}" />
+                    {% for item in news_with_image %}
+                    <div class="col-xs-6" >
+                        <div class="media">
+                            <a href="/articles/detail/{{item.id}}" class="pull-left" rel="image" style="width:99px;height:86px; ">
+                            </a>
+                            <div class="media-body">
+                                <p class="media-heading nowrap"><a href="/articles/detail/{{item.id}}" class="pull-left"><strong>{{item.title}}</strong></a></p>
+                                <div class="font14">{{item.description}}</div>
+                                <span class="time">{{item.publish_time}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="row nopd">
+                    {% for item in news_withOut_image %}
+                            {% if loop.first %}
+                            <div class="col-xs-6">
+                                <ul class="mt30 list nowrap list01 pl mbn">
+                            {% endif %}
+                            {% if loop.index % 5 == 0  %}
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <ul class="mt30 list nowrap list01 pl mbn">
+                            {% endif %}
+                                    <li><span class="time">{{item.publish_time}}</span><a href="/articles/detail/{{item.id}}" title="{{item.title}}"><span class="text-grey">[{{item.category_name}}]</span> {{item.title}}</a></li>
+                            {% if loop.last %}
+                                </ul>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12">
+    <h4 class="mTitle">活动专区</h4>
+    <div class="picScroll-left mb20" id="activity-list">
+        <div class="bd">
+            <input type="hidden" id="activityFooterImages" value="{{activityFooterImages}}" />
+            <ul class="picList" id="acList">
+                {% for item in footer_activity %}
+                <li style="width: 188px;height:113px;">
+                    <div class="pic"><a href="/activity/detail/{{item.id}}" target="_blank">
+                        </a></div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12">
+<h4 class="mTitle">合作媒体</h4>
+<div class="picScroll-left mb20" id="hezuo-list">
+<div class="bd">
+<input type="hidden" id="hezuoFooterImages" value="
+[
+    {image:'/images/hezuo/bag.png'},
+    {image:'/images/hezuo/72G.jpg'},
+    {image:'/images/hezuo/1688.jpg'},
+    {image:'/images/hezuo/bainong.png'},
+    {image:'/images/hezuo/soyo.jpg'},
+    {image:'/images/hezuo/zhang.jpg'},
+    {image:'/images/hezuo/996.png'},
+    {image:'/images/hezuo/benshouji.png'},
+    {image:'/images/hezuo/9553.jpg'},
+    {image:'/images/hezuo/bufan.png'},
+    {image:'/images/hezuo/766.png'},
+     {image:'/images/hezuo/520apk.png'},
+]
+" />
+<ul class="picList" id="hzList"style="padding: 0px;">
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.ptbus.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.72g.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.1688wan.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56;">
+        <div class="pic"><a href="http://www.bnapp.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.soyohui.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.zhanggame.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.996.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.benshouji.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.9553.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.bufan.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.766.com" target="_blank">
+        </a></div>
+    </li>
+    <li style="width: 152px;height:56px;">
+        <div class="pic"><a href="http://www.520apk.com" target="_blank">
+        </a></div>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+var errCode = {{code}};
+var is_login={{is_login}};
+</script>
+<script src="{{ constant('STATIC_HOST') }}/js/common/md5.min.js"></script>
+<script src="{{ constant('STATIC_HOST') }}/js/common/imageLoaded.js"></script>
+<script src="{{ constant('STATIC_HOST') }}/js/index.js"></script>
+{% endblock %}

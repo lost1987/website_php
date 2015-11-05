@@ -1,0 +1,12 @@
+[26-Aug-2015 17:28:11 Asia/Shanghai]  PHP WARNING : warning  with message 'PDOStatement::execute(): SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'help_image' at row 1' in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/inner/core/db.class.php(166): execute(array)
+#2 /Users/shameless/php_workspace/website_php/inner/core/db.class.php(236): execute(string, array)
+#3 /Users/shameless/php_workspace/website_php/inner/gms/controller/game.class.php(76): save(array, string)
+#4 (): saveHelp()
+#5 /Users/shameless/php_workspace/website_php/inner/core/fpm.class.php(87): call_user_func(array)
+#6 /Users/shameless/php_workspace/website_php/inner/omni.class.php(137): run(string, object)
+#7 /Users/shameless/php_workspace/website_php/inner/gms/index.php(56): run(string)
+#8 {main}
+  thrown in /Users/shameless/php_workspace/website_php/inner/core/exceptionHandler.class.php on line 109

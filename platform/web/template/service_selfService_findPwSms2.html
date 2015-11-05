@@ -1,0 +1,40 @@
+{% extends 'baseService.html' %}
+
+{% block title %}
+新蜂游戏平台-客户服务
+{% endblock %}
+
+{% block keywords %}
+新蜂游戏平台-客户服务
+{% endblock %}
+
+{% block description %}
+新蜂游戏平台-客户服务
+{% endblock %}
+
+{% block css %}
+<link href="{{ constant('STATIC_HOST') }}/css/formError.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="col-xs-7">
+    <div class="panel p15 inner pb50">
+        <h4 class="mTitle">自助服务
+            <small class="text-blue"><span class="pl5 pr5 text-grey">|</span>找回密码</small>
+        </h4>
+        <div>
+            <ul class="nav nav-tabs nav02" role="tablist">
+                <li><a>账号密码相关</a></li>
+            </ul>
+            <div class="p15">
+                <div class="alert alert-info">
+                    <div class="p30">
+                        <span class="text-orgD">新登录密码已发送到您的手机,请登录后立即修改密码。</span>
+                        <br/><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

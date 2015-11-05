@@ -1,0 +1,80 @@
+[26-Oct-2015 17:56:10 Asia/Shanghai]  PHP WARNING : warning  with message 'constant(): Couldn't find constant WHMJ_HOST' in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Extension/Core.php(1429): constant(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(76): twig_constant(string)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(144): block_banner(array, array)
+#4 /Users/shameless/php_workspace/website_php/www/web/template_c/85/ff/d0c388cbeef46e99f1cc811e352b2c44acd334927dc1590ab0a5be2e4fe1.php(75): displayBlock(string, array, array)
+#5 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#6 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#7 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(29): display(array, array)
+#8 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#9 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#10 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): display(array)
+#11 /Users/shameless/php_workspace/website_php/www/web/controller/index.class.php(113): display(string, array)
+#12 (): index()
+#13 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#14 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#15 /Users/shameless/php_workspace/website_php/www/web/index.php(67): run(string)
+#16 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php on line 109
+[26-Oct-2015 17:56:13 Asia/Shanghai]  PHP WARNING : warning  with message 'constant(): Couldn't find constant WHMJ_HOST' in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Extension/Core.php(1429): constant(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(76): twig_constant(string)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(144): block_banner(array, array)
+#4 /Users/shameless/php_workspace/website_php/www/web/template_c/85/ff/d0c388cbeef46e99f1cc811e352b2c44acd334927dc1590ab0a5be2e4fe1.php(75): displayBlock(string, array, array)
+#5 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#6 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#7 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(29): display(array, array)
+#8 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#9 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#10 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): display(array)
+#11 /Users/shameless/php_workspace/website_php/www/web/controller/index.class.php(113): display(string, array)
+#12 (): index()
+#13 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#14 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#15 /Users/shameless/php_workspace/website_php/www/web/index.php(67): run(string)
+#16 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php on line 109
+[26-Oct-2015 17:56:14 Asia/Shanghai]  PHP WARNING : warning  with message 'constant(): Couldn't find constant WHMJ_HOST' in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Extension/Core.php(1429): constant(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(76): twig_constant(string)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(144): block_banner(array, array)
+#4 /Users/shameless/php_workspace/website_php/www/web/template_c/85/ff/d0c388cbeef46e99f1cc811e352b2c44acd334927dc1590ab0a5be2e4fe1.php(75): displayBlock(string, array, array)
+#5 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#6 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#7 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(29): display(array, array)
+#8 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#9 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#10 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): display(array)
+#11 /Users/shameless/php_workspace/website_php/www/web/controller/index.class.php(113): display(string, array)
+#12 (): index()
+#13 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#14 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#15 /Users/shameless/php_workspace/website_php/www/web/index.php(67): run(string)
+#16 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php on line 109
+[26-Oct-2015 17:56:15 Asia/Shanghai]  PHP WARNING : warning  with message 'constant(): Couldn't find constant WHMJ_HOST' in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php:109
+Stack trace:
+#0 (): error_transfer_exception(integer, string, string, integer, array)
+#1 /Users/shameless/php_workspace/website_php/www/libs/Twig/Extension/Core.php(1429): constant(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(76): twig_constant(string)
+#3 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(144): block_banner(array, array)
+#4 /Users/shameless/php_workspace/website_php/www/web/template_c/85/ff/d0c388cbeef46e99f1cc811e352b2c44acd334927dc1590ab0a5be2e4fe1.php(75): displayBlock(string, array, array)
+#5 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#6 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#7 /Users/shameless/php_workspace/website_php/www/web/template_c/ca/04/21d37ab181b918b88304b0bdcea8a4d9a2f4882c2c3b2407bdc3c8e61229.php(29): display(array, array)
+#8 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(279): doDisplay(array, array)
+#9 /Users/shameless/php_workspace/website_php/www/libs/Twig/Template.php(253): displayWithErrorHandling(array, array)
+#10 /Users/shameless/php_workspace/website_php/www/libs/Twig/Environment.php(307): display(array)
+#11 /Users/shameless/php_workspace/website_php/www/web/controller/index.class.php(113): display(string, array)
+#12 (): index()
+#13 /Users/shameless/php_workspace/website_php/www/core/fpm.class.php(87): call_user_func(array)
+#14 /Users/shameless/php_workspace/website_php/www/omni.class.php(136): run(string, object)
+#15 /Users/shameless/php_workspace/website_php/www/web/index.php(67): run(string)
+#16 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/exceptionHandler.class.php on line 109

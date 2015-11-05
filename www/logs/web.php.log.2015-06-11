@@ -1,0 +1,94 @@
+[11-Jun-2015 15:51:44 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 15:51:45 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 15:53:13 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 15:53:14 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 15:55:16 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 15:55:17 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 15:58:33 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 15:58:34 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 15:58:34 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 15:58:35 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送兑换信息公告失败
+
+[11-Jun-2015 15:59:44 Asia/Shanghai] before add:0,1,2,4,5,6,7,8,9|8074179,15150,12694,86,92,95,14,100,100
+[11-Jun-2015 15:59:44 Asia/Shanghai] before add:0,1,2,4,5,6,7,8,9|8124179,15150,12694,86,92,95,14,100,100
+[11-Jun-2015 15:59:44 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 15:59:45 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 16:02:48 Asia/Shanghai] before add:0,1,2,4,5,6,7,8,9|8124179,15150,12694,86,92,95,14,100,100
+[11-Jun-2015 16:02:48 Asia/Shanghai] after add:0,1,2,4,5,6,7,8,9|8124179,15150,12694,86,92,95,14,100,100
+[11-Jun-2015 16:02:49 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 16:02:50 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 16:02:50 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 16:02:51 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送兑换信息公告失败
+
+[11-Jun-2015 16:05:00 Asia/Shanghai] before add:0,1,2,4,5,6,7,8,9|8124179,15150,12496,86,92,95,14,100,100
+[11-Jun-2015 16:05:00 Asia/Shanghai] after add:0,1,2,4,5,6,7,8,9|8124179,15150,12298,86,92,95,14,100,100
+[11-Jun-2015 16:05:02 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 16:05:03 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+
+[11-Jun-2015 16:05:03 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 16:05:04 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送兑换信息公告失败
+
+[11-Jun-2015 16:12:36 Asia/Shanghai] 未知的错误类型: [512] CURLOPT_RETURNTRANSFER is a required option 
+
+[11-Jun-2015 16:12:37 Asia/Shanghai] 
+class  :   web\libs\DataUtil
+func   :   doAfterExchange
+file   :   /Users/shameless/php_workspace/website_php/www/web/libs/dataUtil.class.php
+message:   CURL连接处理推送[兑换]资源变化失败
+

@@ -1,0 +1,14 @@
+[08-Jul-2015 14:36:22 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'SQLSTATE[HY000] [2002] Operation timed out' in /Users/shameless/php_workspace/website_php/www/core/db.class.php:118
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/core/db.class.php(118): __construct(string, string, string)
+#1 /Users/shameless/php_workspace/website_php/www/omni.class.php(118): init_db_from_config(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#3 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/db.class.php on line 118
+[08-Jul-2015 14:36:33 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'SQLSTATE[HY000] [2002] Operation timed out' in /Users/shameless/php_workspace/website_php/www/core/db.class.php:118
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/core/db.class.php(118): __construct(string, string, string)
+#1 /Users/shameless/php_workspace/website_php/www/omni.class.php(118): init_db_from_config(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#3 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/db.class.php on line 118

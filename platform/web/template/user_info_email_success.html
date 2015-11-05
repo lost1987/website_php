@@ -1,0 +1,42 @@
+{% extends 'basePersonnal.html' %}
+
+{% block title %}
+新蜂游戏平台-个人中心
+{% endblock %}
+
+{% block keywords %}
+新蜂游戏平台-个人中心
+{% endblock %}
+
+{% block description %}
+新蜂游戏平台-个人中心
+{% endblock %}
+{% block content %}
+<div class="col-xs-7">
+    <div class="panel p15 inner pb50">
+        <h4 class="mTitle">账号信息
+            <small class="text-blue"><span class="pl5 pr5 text-grey">|</span>邮箱认证</small>
+        </h4>
+        <div>
+            <form class="form-horizontal" role="form">
+                <div class="alert alert-info" id="showArea" >
+                    <div class="p10">
+                        恭喜您认证成功!
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+  $(function(){
+     setTimeout("gotoIndex()",800);
+  });
+  
+  function gotoIndex(){
+      window.location.href = '/';
+  }
+</script>
+{% endblock %}

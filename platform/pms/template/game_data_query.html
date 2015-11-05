@@ -1,0 +1,78 @@
+{% extends 'base.html'%}
+
+
+{% block title%}
+游戏数据查询
+{% endblock %}
+
+{% block css%}
+<link rel="stylesheet" type="text/css" href="/media/css/select2_metro.css"/>
+<link rel="stylesheet" href="/media/css/DT_bootstrap.css"/>
+<link rel="stylesheet" href="/media/css/common/form_search.css"/>
+<link rel="stylesheet" type="text/css" href="/media/css/addtional.css" />
+<link rel="stylesheet" type="text/css" href="/media/css/datetimepicker.css" />
+{% endblock %}
+
+{% block content%}
+<!-- BEGIN PAGE HEADER-->
+
+
+<div class="row-fluid">
+
+
+    <div class="span12">
+        <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+        <h3 class="page-title">
+            游戏数据查询
+            <small></small>
+        </h3>
+        <!-- END PAGE TITLE & BREADCRUMB-->
+    </div>
+
+
+</div>
+
+
+<!-- END PAGE HEADER-->
+
+
+<!-- BEGIN PAGE CONTENT-->
+
+<div class="row-fluid">
+    <div class="span12">
+        <!--表格查询区-->
+        <form class="form-inline" action="/gameData/createCSV/53" method="post" id="search_form">
+            <div class="control-group search_form_wrap span4">
+                <label class="control-label" style="width:600px;"><b class="midnight">查询语句<code>注意查询表名前需要写数据库名字</code>:</b>&nbsp;&nbsp;</label>
+                <div class="controls chzn-controls search_form">
+                   <textarea class="form-control form" name="sql" style="width:800px;" rows="10" placeholder="亲,输入查询语句"></textarea><br/><br/>
+                    <a href="javascript:;" class="btn" onclick="$('#search_form').submit();"><i class="icon-file"></i>&nbsp;生成CSV</a>
+                </div>
+            </div>
+        </form>
+        <br/>
+        <div class="alert alert-error hide">
+            <button class="close" data-dismiss="alert"></button>
+            请选择要处理的项目
+        </div>
+    </div>
+</div>
+<!-- END PAGE CONTENT-->
+</div>
+<!-- END PAGE CONTAINER-->
+</div>
+
+{% endblock %}
+
+
+{% block javascript_plugins %}
+<script type="text/javascript" src="/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/media/js/select2.min.js"></script>
+<script type="text/javascript" src="/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/media/js/DT_bootstrap.js"></script>
+<script type="text/javascript" src="/media/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="/media/js/bootstrap-datetimepicker.zh-CN.js"></script>
+{% endblock %}
+
+{% block javascript_custom %}
+{% endblock %}

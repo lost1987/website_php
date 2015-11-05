@@ -1,0 +1,7 @@
+[25-Sep-2015 02:17:02 Asia/Shanghai]  PHP Fatal error : Uncaught exception  with message 'SQLSTATE[HY000] [1045] Access denied for user 'game'@'localhost' (using password: YES)' in /Users/shameless/php_workspace/website_php/www/core/db.class.php:114
+Stack trace:
+#0 /Users/shameless/php_workspace/website_php/www/core/db.class.php(114): __construct(string, string, string)
+#1 /Users/shameless/php_workspace/website_php/www/omni.class.php(118): init_db_from_config(string)
+#2 /Users/shameless/php_workspace/website_php/www/web/index.php(65): run(string)
+#3 {main}
+  thrown in /Users/shameless/php_workspace/website_php/www/core/db.class.php on line 114
