@@ -1,2 +1,0 @@
-[29-Aug-2015 13:49:31 Asia/Shanghai] SELECT *  FROM user_resource_log    WHERE  uid = 10041  ORDER BY create_time DESC  LIMIT 0 , 10
-[29-Aug-2015 13:50:30 Asia/Shanghai] SELECT *  FROM user_resource_log    WHERE  uid = 10063  AND  action_type = 7 ORDER BY create_time DESC  LIMIT 0 , 10
